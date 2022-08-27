@@ -1,3 +1,32 @@
+<p align="center">
+    <img width="150" class="QR-img" src="./qrcode.jpeg">
+</p>
+
+<h1 align="center">Via UI</h1>
+
+<div align="center">
+    <span><a target="_blank" href="https://jslinsir.github.io/via-ui-doc/"> 中文文档</a></span>
+    <span>|</span>
+    <span><a target="_blank" href="https://github.com/JslinSir/via-ui">仓库地址</a></span>
+</div>
+<div align="center">
+    <span>Via UI  Via Via!</span><br/>
+    <strong>一套基于微信小程序原生语法实现的 UI 组件库</strong>
+</div>
+
+<div align="center">
+    <a href="https://github.com/JslinSir/via-ui">
+        <img alt="vai ui" src="https://img.shields.io/badge/Via-UI-%230a1d66" />
+    </a>
+    <a href="https://www.npmjs.com/package/via-mp-ui">
+        <img alt="最新版本" src="https://img.shields.io/npm/v/via-mp-ui?color=%230a1d66&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&logo=graphcool&logoColor=white" />
+    </a>
+    <a href="https://www.npmjs.com/package/lin-ui">
+        <img alt="基础库版本" src="https://img.shields.io/badge/%E5%9F%BA%E7%A1%80%E5%BA%93%E7%89%88%E6%9C%AC%20-%20%3E%3D1.9-green" />
+    </a>
+</div>
+
+---
 # Via UI
 
   🤡   via UI 是一套精美，内容丰富的微信小程序组件库 <br>
@@ -23,7 +52,7 @@
 
 
 ### 版本
- ----    0.0.2  调整目录结构
+ 
 ### 安装
 1. ``` npm install via-mp-ui```
 2. 在微信开发者工具选择 构建npm 
@@ -49,7 +78,7 @@ C端重要的是交互， 好的交互，好的操作可以让用户沉浸在里
 🏃‍♂️   人生就是在不停的 via via , 这个刚出生的 via UI 也是一样，还有很长的路要走；<br>
 🙏   为了更好的去改进，完善，组件库，还请君 遇到问题，及时反馈与我，感谢
 
-
 ### 体验码
 
 <img src="./qrcode.jpeg" width="300" height="300"/>
+

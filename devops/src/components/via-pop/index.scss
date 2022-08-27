@@ -1,0 +1,58 @@
+@import "../style/base.scss";
+.via-mask{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: $z-index-mask;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all 0.3s;
+}
+.nomask{
+  background-color: transparent !important;
+}
+.via-pop-view {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: $z-index-mask;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition-timing-function: ease;
+  animation: ease both;
+}
+
+  .via-pop-cotent {
+    position: absolute;
+    z-index: 11;
+    opacity: 1;
+    transition-timing-function: ease;
+    animation: ease both;
+  }
+  .via-pop-position-top {
+    top: 0;
+  }
+
+  .via-pop-position-bottom {
+    bottom: 0;
+  }
+
+  .via-pop-position-left {
+    left: 0;
+  }
+
+  .via-pop-position-right {
+    right: 0;
+  }
+
+
+.via-pop-position-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
