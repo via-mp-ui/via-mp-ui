@@ -1,0 +1,54 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "吐司",
+          "pathName": "pages/feedback/toast/toast",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "弹窗",
+          "pathName": "pages/feedback/pop/pop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pop",
+          "pathName": "pages/feedback/pop/pop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "数字键盘",
+          "pathName": "pages/business/numberKeyboard/numberKeyboard",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "数字键盘",
+          "pathName": "pages/business/numberKeyboard/numberKeyboard",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "水印",
+          "pathName": "pages/business/watermark/watermark",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
