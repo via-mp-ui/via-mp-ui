@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "via-pop-modal":"../via-pop-modal/index"
+  }
+}

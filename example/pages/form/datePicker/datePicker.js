@@ -1,30 +1,39 @@
 Page({
   data: {
-    visible:false,
-    visibl2:false,
-    selectValue:[2021,3,17]
+ 
   },
   onLoad(options) {
-
+     this.$datePicker = this.selectComponent('#datepicker') 
   },
 
-  handleBtnClick(){
-    this.setData({visible:true})
+  handleBtnClick(e){
+    console.log(e)
+    let { dateformate,showunit:showUnit,title,mode } = e.currentTarget.dataset
+     showUnit = showUnit === '0' ? false:true
+    this.setData({
+      dateformate,
+      showUnitText:showUnit,
+      title:title?title:'',
+      mode:mode?mode:'date'
+    },()=>{
+      this.$datePicker.show()
+    })
+    
   },
 
-  handleBtnClick2(){
-    this.setData({visibl2:true})
-  },
+
 
   handleChange(e){
     console.log("value:",e.detail.value)
-    this.setData({selectValue:e.detail.value.toString().replace(/,/g,'-')})
+ 
 
   },
   handleConfirm(e){
     console.log("e:",e)
+    const { value } = e.detail
+    this.setData({selectValue:value})
     wx.showToast({
-      title: e.detail.value.toString().replace(/,/g,'-'),
+      title: value,
       icon:"none"
     })
   },

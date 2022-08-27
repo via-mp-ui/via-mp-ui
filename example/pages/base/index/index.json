@@ -3,6 +3,6 @@
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#0a1d66",
   "usingComponents": {
-    "via-cell":"via-mp-ui/via-cell/index"
+    "via-cell":"/components/via-cell/index"
   }
 }

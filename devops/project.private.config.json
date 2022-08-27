@@ -1,0 +1,78 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "吐司",
+          "pathName": "pages/feedback/toast/toast",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "弹窗",
+          "pathName": "pages/feedback/pop/pop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pop",
+          "pathName": "pages/feedback/pop/pop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "数字键盘",
+          "pathName": "pages/business/numberKeyboard/numberKeyboard",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "数字键盘",
+          "pathName": "pages/business/numberKeyboard/numberKeyboard",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "水印",
+          "pathName": "pages/business/watermark/watermark",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "日期选择器",
+          "pathName": "pages/form/datePicker/datePicker",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "日期范围选择器",
+          "pathName": "pages/form/dateRangePicker/dateRangePicker",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "验证码组件",
+          "pathName": "pages/business/verificationCodeModal/verificationCodeModal",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/test/pop/pop",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

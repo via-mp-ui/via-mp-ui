@@ -1,0 +1,1 @@
+export const createArray=t=>t?[...Array(t).keys()]:[];export const unitZero=t=>t>9?t:`0${t}`;export const caculateRatio=()=>{const{screenWidth:t}=wx.getSystemInfoSync();return t/375};export const rpxToPx=t=>{const e=t/2,o=caculateRatio();return Math.round(e*o)};export const svgToBase64=t=>`data:image/svg+xml;charset=utf-8,${encodeURIComponent(t)}`;

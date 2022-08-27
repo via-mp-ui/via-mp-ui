@@ -1,0 +1,29 @@
+@import "../style/base.scss";
+@import "../style/flex.scss";
+.btn-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 32rpx;
+  height: 86rpx;
+  width: inherit;
+  max-width: 100%;
+  padding: 0 24rpx;
+  border-radius: 44rpx;
+  color: #fff;
+  border: 2rpx solid transparent;
+  background-color:var(--theme-color,$theme-color);
+  box-sizing: border-box;
+}
+ 
+.btn-icon{
+  line-height: 1;
+  margin-right: 8rpx;
+}
+ 
+
+
+ 
+
